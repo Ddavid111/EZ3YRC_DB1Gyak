@@ -1,1 +1,2 @@
-# Drig Dávid Adatbázisrendszerek I.gyakorlat Kedd:10-12.00
+# Drig Dávid-EZ3YRC-Adatbázisrendszerek I.gyakorlat 
+## Kedd:10-12.00
