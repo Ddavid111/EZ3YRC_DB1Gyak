@@ -1,0 +1,7 @@
+Egy könyvet több hallgató is használ
+Egy hallgató több könyvet is használ
+Egy könyv egy könyvtárhoz tartozik
+Egy könyvnek több szerzője is lehet
+Egy szerzőnek több könyve is lehet
+Egy campuson több könyvtár is lehet
+Egy szerzőnek több email címe is lehet
