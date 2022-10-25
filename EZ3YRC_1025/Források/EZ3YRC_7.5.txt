@@ -1,0 +1,6 @@
+1.	Г sum(befizetes), sum(Eur) (ε befizetes/370 Eur (befizetes))
+2.	Гr.tajszam max(r.nev),sum(b.befizetes)(befizetes b ⋈ b.diak=r.tajszam resztvevo r)
+3.	Гr.tkod max(r.megnevezes),count(*) (befizetes b ⋈ b.kurzus=t.kod tanfolyam t)
+4.	Гr.tkod max(r.megnevezes),count(b.kurzus) (befizetes b ⋈ + b.kurzus=t.kod tanfolyam t)
+5.	П t.megnevezes (tanfolyam t ⋈ t.kod=k.tkod (П tkod (tanfolyam) \ П kurzus (jelentkezes)) k)
+6.	П mn (σ db=( Г {max(db)} (X)) (X))

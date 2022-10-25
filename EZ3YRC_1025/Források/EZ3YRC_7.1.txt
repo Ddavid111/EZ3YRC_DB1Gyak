@@ -1,0 +1,5 @@
+1.	П cím (könyv)
+2.	σ ar > 2000 (könyv)
+3.	П cím ( σ ar < 1000 (könyv))
+4.	П targy (könyv)
+5.	П cím, ar (σ targy = ’AB’ (könyv))

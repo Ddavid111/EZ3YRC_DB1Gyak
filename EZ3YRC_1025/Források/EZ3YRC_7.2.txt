@@ -1,0 +1,7 @@
+1.	Г count(*) (könyv)
+2.	Г avg(ar) (könyv)
+3.	Г min(ar) (könyv)
+4.	Г count(*) (σ targy = ’AB’ (könyv))
+5.	Г max(ar) (∂ targy = ’AB’ (könyv))
+6.	П cím ( ∂ ( ar > ( Г {avg(ar)} (könyv) ) ) (könyv))
+7.	Г count(*) (∂ ( ar > ( Г {avg(ar)} (könyv) ) ) (könyv))

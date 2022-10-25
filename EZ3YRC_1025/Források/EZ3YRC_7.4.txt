@@ -1,0 +1,5 @@
+1. Г kategoria kategoria, avg(car)) ((termek))
+2. Г termek termek, count(*) (komponens)
+3. Г t.nev t.nev, count(*) (komponens k ⋈ t.kod = k.termek termek t)
+4. П.a. * ( σ nev= X (termek) t ⋈ t.kód = k.termek komponens k ⋈ a.akod = k.alkatresz alkatresz a)
+5. П kategoria ( σ av > X (Г kategoria kategoria, avg(ar) av ((termek)))

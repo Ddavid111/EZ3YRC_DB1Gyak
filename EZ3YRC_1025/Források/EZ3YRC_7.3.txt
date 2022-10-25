@@ -1,0 +1,5 @@
+1.	П név, kód ( ∂ kategória = ’X’ (termek) )
+2.	П t.nev, gy.nev ( termek t ͏ ⋈ t.gyarto = gy.adoszam gyarto gy )
+3.	П gy.nev ( ∂ kategória = X (termek) t ⋈ t.gyarto = gy.adoszam gyarto gy)
+4.	Г count(*) (∂ ear = Y (termek))
+5.	Г count(*) (gyarto gy ⋈ t.gyarto = gy.adoszam ∂ ear > Y (termek) t)
