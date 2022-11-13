@@ -1,9 +1,0 @@
-CREATE DATABASE EZ3YRC;
-USE EZ3YRC;
-CREATE TABLE auto(
-rendszam CHAR(7) PRIMARY KEY,
-tipus VARCHAR(25) NOT NULL,
-szin VARCHAR(15), kor INT,
-ar INT,
-tulaj INT,
-FOREIGN KEY(tulaj) references TULAJDONOS(tkod));
