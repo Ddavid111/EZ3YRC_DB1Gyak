@@ -11,7 +11,7 @@ SELECT Nev, Telefonszam FROM Vevo;
 SELECT min(Teljes_ar), max(Teljes_ar), avg(Teljes_ar) FROM Pizza GROUP BY Pizza_neve;
 
 -- 4.
-SELECT * FROM Pizza WHERE Teljes_ar<’3000’;
+SELECT * FROM Pizza WHERE Teljes_ar<3000;
 
 -- 5.
 SELECT Pizza_neve FROM Pizza WHERE Teljes_ar>(SELECT avg(Teljes_ar) FROM Pizza);
