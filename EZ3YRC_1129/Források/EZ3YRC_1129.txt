@@ -1,0 +1,61 @@
+1.
+AB → A
+AB → B
+AB → AB
+A → A
+B → B
+2.
+Nem triviális: 
+AC → B
+A → B 
+FD-mag:
+A → B 
+3.
+A második Armstrong axióma alapján:
+A → B --> AC → BC
+Az első Armstrong axióma alapján: 
+BC → B 
+A harmadik Armstrong axióma alapján:
+AC → BC, BC → B --> AC → B
+4.
+A második Armstrong axióma alapján:
+A → B --> AC → BC
+C → D --> BC → BD
+A harmadik Armstrong axióma alapján:
+AC → BC, BC → BD --> AC → BD
+5.
+AC → C triviális
+B → DC --> B → D és B → C
+B → D következik B → C és C → D
+Megmaradó mag: (A → B, B → C, C → D)
+6.
+vevő_kód → vevő_név
+termék_neve  egységár
+(datum, vevő_kod) → termék_neve
+(datum, vevő_kod) → összár
+7.
+Megmaradó FD mag: (A → B, B → C, C → D)
+Ebből következik:
+A → B, A → C, A → D
+Ezért a PK mező az A
+8.
+Az irreducibilis mag:
+vevő_kód → vevő_név
+termék_neve --> egységár
+(datum, vevő_kod) → termék_neve
+(datum, vevő_kod) → összár
+A minimális jelölt kulcs: (datum, vevő_kod)
+9.
+PK: (datum, vevő_kod)
+hibás FD-k:
+vevő_kód → vevő_név
+termék_neve  egységár
+Táblák:
+t1 (datum, vevő_kod, termék_neve, összár)
+t2 (vevő_kod, vevő_név)
+t3 (termék_neve, egységár)
+10.
+t1 (salesperson-number, salesperson-name, sales-area)
+t2 (customer-number, customer-name, warehouse-number)
+t3 (warehouse-number, warehouse-location)
+t4 (salesperson-number, customer-number, sales-amount)
